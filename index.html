@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Артем</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#343;
+}
+
+header{
+    background:#0077ff;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+nav{
+    background:#005ed1;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+    background:#0077ff;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#005ed1;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Добро пожаловать!</h1>
+    <p>Это мой сайт</p>
+</header>
+
+<nav>
+    <a href="#about">Обо мне</a>
+    <a href="#services">Услуги</a>
+    <a href="#contacts">Контакты</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>Обо мне</h2>
+        <p>
+            Здесь напишите информацию о себе или своей компании.
+        </p>
+    </div>
+</section>
+
+<section id="services">
+    <div class="card">
+        <h2>Услуги</h2>
+        <p>✔ Услуга 1</p>
+        <p>✔ Услуга 2</p>
+        <p>✔ Услуга 3</p>
+
+        <button onclick="showMessage()">
+            Связаться
+        </button>
+    </div>
+</section>
+
+<section id="contacts">
+    <div class="card">
+        <h2>Контакты</h2>
+        <p>Email: artemkihtenko94@gmail.com</p>
+        <p>Телефон: +00 000 000 000</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Артем
+</footer>
+
+<script>
+function showMessage(){
+    alert("pasasi!");
+}
+</script>
+
+</body>
+</html>
+```
